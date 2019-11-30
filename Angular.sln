@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api.angular.com", "api.Angular.com\api.angular.com.csproj", "{FBC869BE-D98D-4FC1-B876-11CBB3EB8962}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core Projects", "Core Projects", "{CB9E6994-5173-4BCC-B204-E8B4E623EE4F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Angular.Core", "Angular.Core\Angular.Core.csproj", "{5EBB6D54-9140-451E-8608-B99F6A4E178F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Angular.Repository", "Angular.Repository\Angular.Repository.csproj", "{DEFFCE4A-6A4E-4C15-81A0-ADD379F0AD53}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Angular.Services", "Angular.Services\Angular.Services.csproj", "{98004931-919D-404E-80E9-5BD072E7F26B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "www.angular.com", "www.angular.com\www.angular.com.csproj", "{B008B7A0-C504-4DF9-94E8-ACF475DD40B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBC869BE-D98D-4FC1-B876-11CBB3EB8962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC869BE-D98D-4FC1-B876-11CBB3EB8962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC869BE-D98D-4FC1-B876-11CBB3EB8962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC869BE-D98D-4FC1-B876-11CBB3EB8962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EBB6D54-9140-451E-8608-B99F6A4E178F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EBB6D54-9140-451E-8608-B99F6A4E178F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EBB6D54-9140-451E-8608-B99F6A4E178F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EBB6D54-9140-451E-8608-B99F6A4E178F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEFFCE4A-6A4E-4C15-81A0-ADD379F0AD53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEFFCE4A-6A4E-4C15-81A0-ADD379F0AD53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEFFCE4A-6A4E-4C15-81A0-ADD379F0AD53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEFFCE4A-6A4E-4C15-81A0-ADD379F0AD53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98004931-919D-404E-80E9-5BD072E7F26B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98004931-919D-404E-80E9-5BD072E7F26B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98004931-919D-404E-80E9-5BD072E7F26B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98004931-919D-404E-80E9-5BD072E7F26B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B008B7A0-C504-4DF9-94E8-ACF475DD40B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B008B7A0-C504-4DF9-94E8-ACF475DD40B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B008B7A0-C504-4DF9-94E8-ACF475DD40B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B008B7A0-C504-4DF9-94E8-ACF475DD40B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5EBB6D54-9140-451E-8608-B99F6A4E178F} = {CB9E6994-5173-4BCC-B204-E8B4E623EE4F}
+		{DEFFCE4A-6A4E-4C15-81A0-ADD379F0AD53} = {CB9E6994-5173-4BCC-B204-E8B4E623EE4F}
+		{98004931-919D-404E-80E9-5BD072E7F26B} = {CB9E6994-5173-4BCC-B204-E8B4E623EE4F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04CB52A5-B03D-40C9-83C5-1ABAE9FD5244}
+	EndGlobalSection
+EndGlobal
